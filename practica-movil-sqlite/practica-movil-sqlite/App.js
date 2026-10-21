@@ -52,7 +52,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.phoneFrame}>
-        <Text style={styles.titulo}>Mis Tareas</Text>
+        <Text style={styles.titulo}>Luis Rey Gastelum</Text>
         <Text style={styles.subtitulo}>SQLite v{version} · {tareas.length} tarea(s)</Text>
 
         <View style={styles.inputRow}>
@@ -93,7 +93,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#0F172A", alignItems: "center", paddingTop: Platform.OS === "web" ? 40 : 0 },
+  container: { flex: 1, backgroundColor: "#861818", alignItems: "center", paddingTop: Platform.OS === "web" ? 40 : 0 },
   center: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: "#0F172A" },
   loadingText: { color: "#CBD5E1", marginTop: 12 },
   phoneFrame: { width: "100%", maxWidth: 380, flex: 1, backgroundColor: "#F8FAFC", borderRadius: Platform.OS === "web" ? 28 : 0, padding: 20, paddingTop: 28 },
